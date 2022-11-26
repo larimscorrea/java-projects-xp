@@ -46,7 +46,6 @@ public class Employee extends Person {
 	}
 	
 	public String imprintData() {
-		
 		return super.imprintData() + 
 				"Registration: " + this.getRegistration() + "\n" 
 				+ "Fixed salary: " + this.getFixed_salary()+ "\n"
